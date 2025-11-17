@@ -44,13 +44,15 @@ public class Main extends JFrame {
                 model.addRow(new Object[]{"1", "Donut1", "Sprinkles", "2", "$1.99", "$3.98"});
             }
         });
-        MenuList.addListSelectionListener(new ListSelectionListener() {
-            @Override
-            public void valueChanged(ListSelectionEvent e) {
-                MenuList.getSelectedIndex();
-
-            }
-        });
+        //Attempt at list (doesn't work)
+//        MenuList.addListSelectionListener(new ListSelectionListener() {
+//            @Override
+//            public void valueChanged(ListSelectionEvent e) {
+//                String OrderItem = MenuList.getSelectedValue().toString();
+//                addOrder(OrderItem);
+//
+ //            }
+//        });
     }
     public static void main(String[] args) {
         new Main();
