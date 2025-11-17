@@ -58,9 +58,14 @@
             <constraints/>
             <properties>
               <model>
-                <item value="Donut 1"/>
-                <item value="Donut 2"/>
+                <item value="Glazed Donut - $1.49"/>
+                <item value="Chocolate Sprinkles - $1.79"/>
+                <item value="Boston Creme - $1.99"/>
+                <item value="House Coffee - $2.00"/>
+                <item value="Latte - $3.00"/>
+                <item value="Breakfast Sandwich - $4.50"/>
               </model>
+              <selectionMode value="0"/>
             </properties>
           </component>
         </children>

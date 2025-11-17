@@ -28,7 +28,7 @@ public class OrderDAO implements DAO<Order> {
     List<Order> orders;
 
     /**
-     * Get a single contact entity as a contact object
+     * Get a single order entity as a contact object
      *
      * @param id
      * @return
@@ -54,7 +54,7 @@ public class OrderDAO implements DAO<Order> {
     }
 
     /**
-     * Get all contact entities as a List
+     * Get all order entities as a List
      *
      * @return
      */
@@ -79,7 +79,7 @@ public class OrderDAO implements DAO<Order> {
     }
 
     /**
-     * Insert a contact object into contact table
+     * Insert an order object into contact table
      *
      * @param order
      */
@@ -97,7 +97,7 @@ public class OrderDAO implements DAO<Order> {
             stmt.setInt(6, order.getOrderTotal());
             int rowInserted = stmt.executeUpdate();
             if (rowInserted > 0) {
-                System.out.println("A new contact was inserted successfully!");
+                System.out.println("A new order was inserted successfully!");
             }
         } catch (SQLException ex) {
             System.err.println(ex.toString());
