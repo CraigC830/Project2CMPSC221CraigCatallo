@@ -36,6 +36,7 @@ public class Main extends JFrame {
         new Main();
     }
 
+
     private void createUIComponents() {
         OrderTable = new JTable(
                 new DefaultTableModel(
